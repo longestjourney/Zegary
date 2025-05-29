@@ -1,0 +1,16 @@
+C:\Users\Natalia\source\repos\Klienci\Klienci\bin\Debug\net8.0-windows\Klienci.exe
+C:\Users\Natalia\source\repos\Klienci\Klienci\bin\Debug\net8.0-windows\Klienci.deps.json
+C:\Users\Natalia\source\repos\Klienci\Klienci\bin\Debug\net8.0-windows\Klienci.runtimeconfig.json
+C:\Users\Natalia\source\repos\Klienci\Klienci\bin\Debug\net8.0-windows\Klienci.dll
+C:\Users\Natalia\source\repos\Klienci\Klienci\bin\Debug\net8.0-windows\Klienci.pdb
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.Form1.resources
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.csproj.GenerateResource.cache
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.AssemblyInfoInputs.cache
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.AssemblyInfo.cs
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.csproj.CoreCompileInputs.cache
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.dll
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\refint\Klienci.dll
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.pdb
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.genruntimeconfig.cache
+C:\Users\Natalia\source\repos\Klienci\Klienci\obj\Debug\net8.0-windows\ref\Klienci.dll
