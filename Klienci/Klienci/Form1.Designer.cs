@@ -33,14 +33,14 @@
             timer1 = new System.Windows.Forms.Timer(components);
             panel1 = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
-            comboBox8 = new ComboBox();
-            comboBox7 = new ComboBox();
-            comboBox6 = new ComboBox();
-            comboBox5 = new ComboBox();
             ButtonStart4 = new Button();
             ButtonStart3 = new Button();
             ButtonStart2 = new Button();
             ButtonStart1 = new Button();
+            comboBox5 = new ComboBox();
+            comboBox7 = new ComboBox();
+            comboBox6 = new ComboBox();
+            comboBox8 = new ComboBox();
             menuStrip1 = new MenuStrip();
             optionsToolStripMenuItem = new ToolStripMenuItem();
             alwaysOnTopToolStripMenuItem = new ToolStripMenuItem();
@@ -90,10 +90,26 @@
             button10 = new Button();
             label17 = new Label();
             label16 = new Label();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            button15 = new Button();
+            button1 = new Button();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            button13 = new Button();
+            button14 = new Button();
+            tableLayoutPanel4 = new TableLayoutPanel();
+            button16 = new Button();
+            button17 = new Button();
+            tableLayoutPanel5 = new TableLayoutPanel();
+            button18 = new Button();
+            button19 = new Button();
             panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             menuStrip1.SuspendLayout();
             contextMenuStrip1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+            tableLayoutPanel4.SuspendLayout();
+            tableLayoutPanel5.SuspendLayout();
             SuspendLayout();
             // 
             // timer1
@@ -107,7 +123,7 @@
             panel1.Controls.Add(menuStrip1);
             panel1.Location = new Point(12, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1514, 467);
+            panel1.Size = new Size(1514, 234);
             panel1.TabIndex = 1;
             // 
             // tableLayoutPanel1
@@ -117,62 +133,36 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.Controls.Add(comboBox8, 3, 1);
-            tableLayoutPanel1.Controls.Add(comboBox7, 2, 1);
-            tableLayoutPanel1.Controls.Add(comboBox6, 1, 1);
-            tableLayoutPanel1.Controls.Add(comboBox5, 0, 1);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel5, 3, 1);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel4, 2, 1);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 1, 1);
             tableLayoutPanel1.Controls.Add(ButtonStart4, 3, 0);
             tableLayoutPanel1.Controls.Add(ButtonStart3, 2, 0);
             tableLayoutPanel1.Controls.Add(ButtonStart2, 1, 0);
             tableLayoutPanel1.Controls.Add(ButtonStart1, 0, 0);
+            tableLayoutPanel1.Controls.Add(comboBox5, 0, 2);
+            tableLayoutPanel1.Controls.Add(comboBox7, 2, 2);
+            tableLayoutPanel1.Controls.Add(comboBox6, 1, 2);
+            tableLayoutPanel1.Controls.Add(comboBox8, 3, 2);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 1);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 24);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 83.3333359F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.Size = new Size(1514, 443);
+            tableLayoutPanel1.RowCount = 3;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 55.4502373F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 44.5497627F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 51F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(1514, 210);
             tableLayoutPanel1.TabIndex = 2;
-            // 
-            // comboBox8
-            // 
-            comboBox8.FormattingEnabled = true;
-            comboBox8.Location = new Point(1137, 372);
-            comboBox8.Name = "comboBox8";
-            comboBox8.Size = new Size(121, 23);
-            comboBox8.TabIndex = 7;
-            // 
-            // comboBox7
-            // 
-            comboBox7.FormattingEnabled = true;
-            comboBox7.Location = new Point(759, 372);
-            comboBox7.Name = "comboBox7";
-            comboBox7.Size = new Size(121, 23);
-            comboBox7.TabIndex = 6;
-            // 
-            // comboBox6
-            // 
-            comboBox6.FormattingEnabled = true;
-            comboBox6.Location = new Point(381, 372);
-            comboBox6.Name = "comboBox6";
-            comboBox6.Size = new Size(121, 23);
-            comboBox6.TabIndex = 5;
-            // 
-            // comboBox5
-            // 
-            comboBox5.FormattingEnabled = true;
-            comboBox5.Location = new Point(3, 372);
-            comboBox5.Name = "comboBox5";
-            comboBox5.Size = new Size(121, 23);
-            comboBox5.TabIndex = 4;
             // 
             // ButtonStart4
             // 
             ButtonStart4.Anchor = AnchorStyles.None;
             ButtonStart4.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ButtonStart4.Location = new Point(1178, 141);
+            ButtonStart4.Location = new Point(1178, 3);
             ButtonStart4.Name = "ButtonStart4";
-            ButtonStart4.Size = new Size(291, 87);
+            ButtonStart4.Size = new Size(291, 82);
             ButtonStart4.TabIndex = 3;
             ButtonStart4.Text = "Start";
             ButtonStart4.UseVisualStyleBackColor = true;
@@ -181,9 +171,9 @@
             // 
             ButtonStart3.Anchor = AnchorStyles.None;
             ButtonStart3.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ButtonStart3.Location = new Point(799, 141);
+            ButtonStart3.Location = new Point(799, 3);
             ButtonStart3.Name = "ButtonStart3";
-            ButtonStart3.Size = new Size(291, 87);
+            ButtonStart3.Size = new Size(291, 82);
             ButtonStart3.TabIndex = 2;
             ButtonStart3.Text = "Start";
             ButtonStart3.UseVisualStyleBackColor = true;
@@ -192,9 +182,9 @@
             // 
             ButtonStart2.Anchor = AnchorStyles.None;
             ButtonStart2.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ButtonStart2.Location = new Point(421, 141);
+            ButtonStart2.Location = new Point(421, 3);
             ButtonStart2.Name = "ButtonStart2";
-            ButtonStart2.Size = new Size(291, 87);
+            ButtonStart2.Size = new Size(291, 82);
             ButtonStart2.TabIndex = 1;
             ButtonStart2.Text = "Start";
             ButtonStart2.UseVisualStyleBackColor = true;
@@ -204,15 +194,47 @@
             // 
             ButtonStart1.Anchor = AnchorStyles.None;
             ButtonStart1.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ButtonStart1.Location = new Point(43, 141);
+            ButtonStart1.Location = new Point(43, 3);
             ButtonStart1.Name = "ButtonStart1";
-            ButtonStart1.Size = new Size(291, 87);
+            ButtonStart1.Size = new Size(291, 82);
             ButtonStart1.TabIndex = 0;
             ButtonStart1.Text = "Start";
             ButtonStart1.UseVisualStyleBackColor = true;
             ButtonStart1.Click += ButtonStart1_Click;
             ButtonStart1.MouseDown += ButtonStart1_MouseDown;
             ButtonStart1.MouseUp += ButtonStart1_MouseUp;
+            // 
+            // comboBox5
+            // 
+            comboBox5.FormattingEnabled = true;
+            comboBox5.Location = new Point(3, 161);
+            comboBox5.Name = "comboBox5";
+            comboBox5.Size = new Size(121, 23);
+            comboBox5.TabIndex = 4;
+            // 
+            // comboBox7
+            // 
+            comboBox7.FormattingEnabled = true;
+            comboBox7.Location = new Point(759, 161);
+            comboBox7.Name = "comboBox7";
+            comboBox7.Size = new Size(121, 23);
+            comboBox7.TabIndex = 6;
+            // 
+            // comboBox6
+            // 
+            comboBox6.FormattingEnabled = true;
+            comboBox6.Location = new Point(381, 161);
+            comboBox6.Name = "comboBox6";
+            comboBox6.Size = new Size(121, 23);
+            comboBox6.TabIndex = 5;
+            // 
+            // comboBox8
+            // 
+            comboBox8.FormattingEnabled = true;
+            comboBox8.Location = new Point(1137, 161);
+            comboBox8.Name = "comboBox8";
+            comboBox8.Size = new Size(121, 23);
+            comboBox8.TabIndex = 7;
             // 
             // menuStrip1
             // 
@@ -632,11 +654,156 @@
             label16.Size = new Size(109, 25);
             label16.TabIndex = 1;
             // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 2;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel2.Controls.Add(button1, 1, 0);
+            tableLayoutPanel2.Controls.Add(button15, 0, 0);
+            tableLayoutPanel2.Location = new Point(3, 91);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 1;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel2.Size = new Size(372, 58);
+            tableLayoutPanel2.TabIndex = 12;
+            // 
+            // button15
+            // 
+            button15.Dock = DockStyle.Right;
+            button15.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button15.Location = new Point(40, 3);
+            button15.Name = "button15";
+            button15.Size = new Size(143, 52);
+            button15.TabIndex = 12;
+            button15.Text = "Continue";
+            button15.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Dock = DockStyle.Left;
+            button1.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(189, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(142, 52);
+            button1.TabIndex = 13;
+            button1.Text = "Restart";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel3
+            // 
+            tableLayoutPanel3.ColumnCount = 2;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.Controls.Add(button13, 1, 0);
+            tableLayoutPanel3.Controls.Add(button14, 0, 0);
+            tableLayoutPanel3.Location = new Point(381, 91);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 1;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.Size = new Size(372, 58);
+            tableLayoutPanel3.TabIndex = 13;
+            // 
+            // button13
+            // 
+            button13.Dock = DockStyle.Left;
+            button13.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button13.Location = new Point(189, 3);
+            button13.Name = "button13";
+            button13.Size = new Size(142, 52);
+            button13.TabIndex = 13;
+            button13.Text = "Restart";
+            button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            button14.Dock = DockStyle.Right;
+            button14.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button14.Location = new Point(40, 3);
+            button14.Name = "button14";
+            button14.Size = new Size(143, 52);
+            button14.TabIndex = 12;
+            button14.Text = "Continue";
+            button14.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel4
+            // 
+            tableLayoutPanel4.ColumnCount = 2;
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel4.Controls.Add(button16, 1, 0);
+            tableLayoutPanel4.Controls.Add(button17, 0, 0);
+            tableLayoutPanel4.Location = new Point(759, 91);
+            tableLayoutPanel4.Name = "tableLayoutPanel4";
+            tableLayoutPanel4.RowCount = 1;
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel4.Size = new Size(372, 58);
+            tableLayoutPanel4.TabIndex = 14;
+            // 
+            // button16
+            // 
+            button16.Dock = DockStyle.Left;
+            button16.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button16.Location = new Point(189, 3);
+            button16.Name = "button16";
+            button16.Size = new Size(142, 52);
+            button16.TabIndex = 13;
+            button16.Text = "Restart";
+            button16.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            button17.Dock = DockStyle.Right;
+            button17.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button17.Location = new Point(40, 3);
+            button17.Name = "button17";
+            button17.Size = new Size(143, 52);
+            button17.TabIndex = 12;
+            button17.Text = "Continue";
+            button17.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel5
+            // 
+            tableLayoutPanel5.ColumnCount = 2;
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel5.Controls.Add(button18, 1, 0);
+            tableLayoutPanel5.Controls.Add(button19, 0, 0);
+            tableLayoutPanel5.Location = new Point(1137, 91);
+            tableLayoutPanel5.Name = "tableLayoutPanel5";
+            tableLayoutPanel5.RowCount = 1;
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel5.Size = new Size(372, 58);
+            tableLayoutPanel5.TabIndex = 15;
+            // 
+            // button18
+            // 
+            button18.Dock = DockStyle.Left;
+            button18.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button18.Location = new Point(189, 3);
+            button18.Name = "button18";
+            button18.Size = new Size(142, 52);
+            button18.TabIndex = 13;
+            button18.Text = "Restart";
+            button18.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            button19.Dock = DockStyle.Right;
+            button19.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button19.Location = new Point(40, 3);
+            button19.Name = "button19";
+            button19.Size = new Size(143, 52);
+            button19.TabIndex = 12;
+            button19.Text = "Continue";
+            button19.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1538, 491);
+            ClientSize = new Size(1538, 258);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
@@ -649,6 +816,10 @@
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             contextMenuStrip1.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel4.ResumeLayout(false);
+            tableLayoutPanel5.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -713,5 +884,17 @@
         private ComboBox comboBox8;
         private ComboBox comboBox7;
         private ComboBox comboBox6;
+        private TableLayoutPanel tableLayoutPanel2;
+        private Button button1;
+        private Button button15;
+        private TableLayoutPanel tableLayoutPanel5;
+        private Button button18;
+        private Button button19;
+        private TableLayoutPanel tableLayoutPanel4;
+        private Button button16;
+        private Button button17;
+        private TableLayoutPanel tableLayoutPanel3;
+        private Button button13;
+        private Button button14;
     }
 }
