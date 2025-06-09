@@ -31,3 +31,4 @@ C:\Users\Natalia\Documents\GitHub\Zegary\Klienci\Klienci\obj\Debug\net8.0-window
 C:\Users\Natalia\Documents\GitHub\Zegary\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.pdb
 C:\Users\Natalia\Documents\GitHub\Zegary\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.genruntimeconfig.cache
 C:\Users\Natalia\Documents\GitHub\Zegary\Klienci\Klienci\obj\Debug\net8.0-windows\ref\Klienci.dll
+C:\Users\Natalia\Documents\GitHub\Zegary\Klienci\Klienci\obj\Debug\net8.0-windows\Klienci.Properties.Resources.resources

@@ -41,6 +41,9 @@
             comboBox7 = new ComboBox();
             comboBox6 = new ComboBox();
             comboBox8 = new ComboBox();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            button1 = new Button();
+            button15 = new Button();
             menuStrip1 = new MenuStrip();
             optionsToolStripMenuItem = new ToolStripMenuItem();
             alwaysOnTopToolStripMenuItem = new ToolStripMenuItem();
@@ -90,23 +93,24 @@
             button10 = new Button();
             label17 = new Label();
             label16 = new Label();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            button15 = new Button();
-            button1 = new Button();
+            button20 = new Button();
             tableLayoutPanel3 = new TableLayoutPanel();
             button13 = new Button();
             button14 = new Button();
+            button21 = new Button();
             tableLayoutPanel4 = new TableLayoutPanel();
             button16 = new Button();
             button17 = new Button();
+            button22 = new Button();
             tableLayoutPanel5 = new TableLayoutPanel();
             button18 = new Button();
             button19 = new Button();
+            button23 = new Button();
             panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
             menuStrip1.SuspendLayout();
             contextMenuStrip1.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
             tableLayoutPanel4.SuspendLayout();
             tableLayoutPanel5.SuspendLayout();
@@ -194,9 +198,9 @@
             // 
             ButtonStart1.Anchor = AnchorStyles.None;
             ButtonStart1.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ButtonStart1.Location = new Point(43, 3);
+            ButtonStart1.Location = new Point(73, 3);
             ButtonStart1.Name = "ButtonStart1";
-            ButtonStart1.Size = new Size(291, 82);
+            ButtonStart1.Size = new Size(231, 82);
             ButtonStart1.TabIndex = 0;
             ButtonStart1.Text = "Start";
             ButtonStart1.UseVisualStyleBackColor = true;
@@ -235,6 +239,46 @@
             comboBox8.Name = "comboBox8";
             comboBox8.Size = new Size(121, 23);
             comboBox8.TabIndex = 7;
+            // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 3;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 39.51613F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 18.0107536F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42.4731178F));
+            tableLayoutPanel2.Controls.Add(button15, 0, 0);
+            tableLayoutPanel2.Controls.Add(button1, 1, 0);
+            tableLayoutPanel2.Controls.Add(button20, 2, 0);
+            tableLayoutPanel2.Location = new Point(3, 91);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 1;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.Size = new Size(372, 58);
+            tableLayoutPanel2.TabIndex = 12;
+            // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.Top;
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.BackgroundImageLayout = ImageLayout.Stretch;
+            button1.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(153, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(54, 52);
+            button1.TabIndex = 13;
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            button15.BackgroundImage = (Image)resources.GetObject("button15.BackgroundImage");
+            button15.BackgroundImageLayout = ImageLayout.Stretch;
+            button15.Dock = DockStyle.Right;
+            button15.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button15.Location = new Point(92, 3);
+            button15.Name = "button15";
+            button15.Size = new Size(52, 52);
+            button15.TabIndex = 12;
+            button15.UseVisualStyleBackColor = true;
             // 
             // menuStrip1
             // 
@@ -654,150 +698,174 @@
             label16.Size = new Size(109, 25);
             label16.TabIndex = 1;
             // 
-            // tableLayoutPanel2
+            // button20
             // 
-            tableLayoutPanel2.ColumnCount = 2;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Controls.Add(button1, 1, 0);
-            tableLayoutPanel2.Controls.Add(button15, 0, 0);
-            tableLayoutPanel2.Location = new Point(3, 91);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 1;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Size = new Size(372, 58);
-            tableLayoutPanel2.TabIndex = 12;
-            // 
-            // button15
-            // 
-            button15.Dock = DockStyle.Right;
-            button15.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button15.Location = new Point(40, 3);
-            button15.Name = "button15";
-            button15.Size = new Size(143, 52);
-            button15.TabIndex = 12;
-            button15.Text = "Continue";
-            button15.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.Dock = DockStyle.Left;
-            button1.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(189, 3);
-            button1.Name = "button1";
-            button1.Size = new Size(142, 52);
-            button1.TabIndex = 13;
-            button1.Text = "Restart";
-            button1.UseVisualStyleBackColor = true;
+            button20.BackgroundImage = (Image)resources.GetObject("button20.BackgroundImage");
+            button20.BackgroundImageLayout = ImageLayout.Stretch;
+            button20.Dock = DockStyle.Left;
+            button20.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button20.Location = new Point(217, 3);
+            button20.Name = "button20";
+            button20.Size = new Size(54, 52);
+            button20.TabIndex = 14;
+            button20.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
-            tableLayoutPanel3.ColumnCount = 2;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel3.Controls.Add(button13, 1, 0);
-            tableLayoutPanel3.Controls.Add(button14, 0, 0);
+            tableLayoutPanel3.ColumnCount = 3;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 39.51613F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 18.0107536F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42.4731178F));
+            tableLayoutPanel3.Controls.Add(button13, 0, 0);
+            tableLayoutPanel3.Controls.Add(button14, 1, 0);
+            tableLayoutPanel3.Controls.Add(button21, 2, 0);
             tableLayoutPanel3.Location = new Point(381, 91);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 1;
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel3.Size = new Size(372, 58);
-            tableLayoutPanel3.TabIndex = 13;
+            tableLayoutPanel3.TabIndex = 16;
             // 
             // button13
             // 
-            button13.Dock = DockStyle.Left;
+            button13.BackgroundImage = (Image)resources.GetObject("button13.BackgroundImage");
+            button13.BackgroundImageLayout = ImageLayout.Stretch;
+            button13.Dock = DockStyle.Right;
             button13.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button13.Location = new Point(189, 3);
+            button13.Location = new Point(92, 3);
             button13.Name = "button13";
-            button13.Size = new Size(142, 52);
-            button13.TabIndex = 13;
-            button13.Text = "Restart";
+            button13.Size = new Size(52, 52);
+            button13.TabIndex = 12;
             button13.UseVisualStyleBackColor = true;
             // 
             // button14
             // 
-            button14.Dock = DockStyle.Right;
+            button14.Anchor = AnchorStyles.Top;
+            button14.BackgroundImage = (Image)resources.GetObject("button14.BackgroundImage");
+            button14.BackgroundImageLayout = ImageLayout.Stretch;
             button14.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button14.Location = new Point(40, 3);
+            button14.Location = new Point(153, 3);
             button14.Name = "button14";
-            button14.Size = new Size(143, 52);
-            button14.TabIndex = 12;
-            button14.Text = "Continue";
+            button14.Size = new Size(54, 52);
+            button14.TabIndex = 13;
             button14.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            button21.BackgroundImage = (Image)resources.GetObject("button21.BackgroundImage");
+            button21.BackgroundImageLayout = ImageLayout.Stretch;
+            button21.Dock = DockStyle.Left;
+            button21.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button21.Location = new Point(217, 3);
+            button21.Name = "button21";
+            button21.Size = new Size(54, 52);
+            button21.TabIndex = 14;
+            button21.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel4
             // 
-            tableLayoutPanel4.ColumnCount = 2;
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel4.Controls.Add(button16, 1, 0);
-            tableLayoutPanel4.Controls.Add(button17, 0, 0);
+            tableLayoutPanel4.ColumnCount = 3;
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 39.51613F));
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 18.0107536F));
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42.4731178F));
+            tableLayoutPanel4.Controls.Add(button16, 0, 0);
+            tableLayoutPanel4.Controls.Add(button17, 1, 0);
+            tableLayoutPanel4.Controls.Add(button22, 2, 0);
             tableLayoutPanel4.Location = new Point(759, 91);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 1;
-            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel4.Size = new Size(372, 58);
-            tableLayoutPanel4.TabIndex = 14;
+            tableLayoutPanel4.TabIndex = 17;
             // 
             // button16
             // 
-            button16.Dock = DockStyle.Left;
+            button16.BackgroundImage = (Image)resources.GetObject("button16.BackgroundImage");
+            button16.BackgroundImageLayout = ImageLayout.Stretch;
+            button16.Dock = DockStyle.Right;
             button16.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button16.Location = new Point(189, 3);
+            button16.Location = new Point(92, 3);
             button16.Name = "button16";
-            button16.Size = new Size(142, 52);
-            button16.TabIndex = 13;
-            button16.Text = "Restart";
+            button16.Size = new Size(52, 52);
+            button16.TabIndex = 12;
             button16.UseVisualStyleBackColor = true;
             // 
             // button17
             // 
-            button17.Dock = DockStyle.Right;
+            button17.Anchor = AnchorStyles.Top;
+            button17.BackgroundImage = (Image)resources.GetObject("button17.BackgroundImage");
+            button17.BackgroundImageLayout = ImageLayout.Stretch;
             button17.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button17.Location = new Point(40, 3);
+            button17.Location = new Point(153, 3);
             button17.Name = "button17";
-            button17.Size = new Size(143, 52);
-            button17.TabIndex = 12;
-            button17.Text = "Continue";
+            button17.Size = new Size(54, 52);
+            button17.TabIndex = 13;
             button17.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            button22.BackgroundImage = (Image)resources.GetObject("button22.BackgroundImage");
+            button22.BackgroundImageLayout = ImageLayout.Stretch;
+            button22.Dock = DockStyle.Left;
+            button22.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button22.Location = new Point(217, 3);
+            button22.Name = "button22";
+            button22.Size = new Size(54, 52);
+            button22.TabIndex = 14;
+            button22.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel5
             // 
-            tableLayoutPanel5.ColumnCount = 2;
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel5.Controls.Add(button18, 1, 0);
-            tableLayoutPanel5.Controls.Add(button19, 0, 0);
+            tableLayoutPanel5.ColumnCount = 3;
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 39.51613F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 18.0107536F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42.4731178F));
+            tableLayoutPanel5.Controls.Add(button18, 0, 0);
+            tableLayoutPanel5.Controls.Add(button19, 1, 0);
+            tableLayoutPanel5.Controls.Add(button23, 2, 0);
             tableLayoutPanel5.Location = new Point(1137, 91);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 1;
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel5.Size = new Size(372, 58);
-            tableLayoutPanel5.TabIndex = 15;
+            tableLayoutPanel5.TabIndex = 18;
             // 
             // button18
             // 
-            button18.Dock = DockStyle.Left;
+            button18.BackgroundImage = (Image)resources.GetObject("button18.BackgroundImage");
+            button18.BackgroundImageLayout = ImageLayout.Stretch;
+            button18.Dock = DockStyle.Right;
             button18.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button18.Location = new Point(189, 3);
+            button18.Location = new Point(92, 3);
             button18.Name = "button18";
-            button18.Size = new Size(142, 52);
-            button18.TabIndex = 13;
-            button18.Text = "Restart";
+            button18.Size = new Size(52, 52);
+            button18.TabIndex = 12;
             button18.UseVisualStyleBackColor = true;
             // 
             // button19
             // 
-            button19.Dock = DockStyle.Right;
+            button19.Anchor = AnchorStyles.Top;
+            button19.BackgroundImage = (Image)resources.GetObject("button19.BackgroundImage");
+            button19.BackgroundImageLayout = ImageLayout.Stretch;
             button19.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button19.Location = new Point(40, 3);
+            button19.Location = new Point(153, 3);
             button19.Name = "button19";
-            button19.Size = new Size(143, 52);
-            button19.TabIndex = 12;
-            button19.Text = "Continue";
+            button19.Size = new Size(54, 52);
+            button19.TabIndex = 13;
             button19.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            button23.BackgroundImage = (Image)resources.GetObject("button23.BackgroundImage");
+            button23.BackgroundImageLayout = ImageLayout.Stretch;
+            button23.Dock = DockStyle.Left;
+            button23.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button23.Location = new Point(217, 3);
+            button23.Name = "button23";
+            button23.Size = new Size(54, 52);
+            button23.TabIndex = 14;
+            button23.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -813,10 +881,10 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             contextMenuStrip1.ResumeLayout(false);
-            tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel4.ResumeLayout(false);
             tableLayoutPanel5.ResumeLayout(false);
@@ -890,11 +958,15 @@
         private TableLayoutPanel tableLayoutPanel5;
         private Button button18;
         private Button button19;
+        private Button button23;
         private TableLayoutPanel tableLayoutPanel4;
         private Button button16;
         private Button button17;
+        private Button button22;
         private TableLayoutPanel tableLayoutPanel3;
         private Button button13;
         private Button button14;
+        private Button button21;
+        private Button button20;
     }
 }

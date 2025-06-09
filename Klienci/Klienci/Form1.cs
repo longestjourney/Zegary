@@ -86,6 +86,7 @@ namespace Klienci
                 label8.Text = start.ToString();
                 y = 1;
                 timer2.Start();
+                timer2.Enabled = true;
 
             }
             else
@@ -185,7 +186,8 @@ namespace Klienci
                 label3.Text = start.ToString();
                 label4.Text = "End Time";
                 x = 1;
-                timer1.Start();
+                //timer1.Start();
+                timer1.Enabled = true;
 
             }
             else
@@ -194,16 +196,17 @@ namespace Klienci
                 //buttonStart1.Text = "Start";
                 label4.Text = end.ToString();
                 x = 0;
-                timer1.Stop();
+                //timer1.Stop();
+                timer1.Enabled=false;
                 //label5.Text = timer1.T
             }
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
             TimeSpan span = DateTime.Now - start;
-            label5.Text = span.ToString(@"mm\:ss\.ff");
+            label5.Text = span.ToString(@"\:hh\:mm\:ss\.ff");
             buttonStartOLD1.Text = span.ToString(@"mm\:ss\.ff");
-            ButtonStart1.Text = span.ToString(@"mm\:ss\.ff");
+            ButtonStart1.Text = span.ToString(@"hh\:mm\:ss");
         }
 
         //Event - naciśnięcie przycisku startu w timer nr 2 tick
