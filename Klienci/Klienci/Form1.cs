@@ -6,6 +6,9 @@ namespace Klienci
     {
         int x = 0, y = 0, z = 0, a = 0;
         DateTime start = DateTime.Now, end;
+        DateTime start2 = DateTime.Now, end2;
+        DateTime start3 = DateTime.Now, end3;
+        DateTime start4 = DateTime.Now, end4;
         public Form1()
         {
             InitializeComponent();
@@ -37,7 +40,15 @@ namespace Klienci
         private void Form1_Load(object sender, EventArgs e)
         {
             //timer1.Start();
-
+            string[] lines = File.ReadAllLines("KlienciL.txt");
+            comboBox5.Items.Clear();
+            comboBox6.Items.Clear();
+            comboBox7.Items.Clear();
+            comboBox8.Items.Clear();
+            comboBox5.Items.AddRange(lines);
+            comboBox6.Items.AddRange(lines);
+            comboBox7.Items.AddRange(lines);
+            comboBox8.Items.AddRange(lines);
         }
 
 
@@ -111,21 +122,22 @@ namespace Klienci
 
             if (z == 0)
             {
-                anyTimer(timer3, z, button8, label13, label15);
+                anyTimer(timer3, z, button8, label13, label15, this.start3, this.end3);
                 z = 1;
             }
             else
             {
-                anyTimer(timer3, z, button8, label13, label15);
+                anyTimer(timer3, z, button8, label13, label15, this.start3, this.end3);
                 z = 0;
             }
         }
 
         private void timer3_Tick(object sender, EventArgs e)
         {
-            TimeSpan span = DateTime.Now - start;
+            TimeSpan span = DateTime.Now - start3;
             label12.Text = span.ToString(@"mm\:ss\.ff");
             button8.Text = span.ToString(@"mm\:ss\.ff");
+            ButtonStart3.Text = span.ToString(@"hh\:mm\:ss");
         }
 
         //zegar nr 4
@@ -134,25 +146,26 @@ namespace Klienci
         {
             if (a == 0)
             {
-                anyTimer(timer4, a, button11, label18, label20);
+                anyTimer(timer4, a, button11, label18, label20, this.start3, this.end3);
                 a = 1;
             }
             else
             {
-                anyTimer(timer4, a, button11, label18, label20);
+                anyTimer(timer4, a, button11, label18, label20, this.start3, this.end3);
                 a = 0;
             }
         }
 
         private void timer4_Tick(object sender, EventArgs e)
         {
-            TimeSpan span = DateTime.Now - start;
+            TimeSpan span = DateTime.Now - start4;
             label17.Text = span.ToString(@"mm\:ss\.ff");
             button11.Text = span.ToString(@"mm\:ss\.ff");
+            ButtonStart4.Text = span.ToString(@"hh\:mm\:ss");
         }
 
         //Funkcja skracajaca wywolywanie kolejnych zegarów
-        private void anyTimer(System.Windows.Forms.Timer timers, int values, System.Windows.Forms.Button buttons, System.Windows.Forms.Label labelStart, System.Windows.Forms.Label labelEnd)
+        private void anyTimer(System.Windows.Forms.Timer timers, int values, System.Windows.Forms.Button buttons, System.Windows.Forms.Label labelStart, System.Windows.Forms.Label labelEnd, DateTime start, DateTime end)
         {
             if (values == 0)
             {
@@ -197,7 +210,7 @@ namespace Klienci
                 label4.Text = end.ToString();
                 x = 0;
                 //timer1.Stop();
-                timer1.Enabled=false;
+                timer1.Enabled = false;
                 //label5.Text = timer1.T
             }
         }
@@ -214,18 +227,18 @@ namespace Klienci
         {
             if (y == 0)
             {
-                start = DateTime.Now;
+                start2 = DateTime.Now;
                 //button5.Text = "Stop";
-                label8.Text = start.ToString();
+                label8.Text = start2.ToString();
                 y = 1;
                 timer2.Start();
 
             }
             else
             {
-                end = DateTime.Now;
+                end2 = DateTime.Now;
                 //button5.Text = "Start";
-                label10.Text = end.ToString();
+                label10.Text = end2.ToString();
                 y = 0;
                 timer2.Stop();
                 //label5.Text = timer1.T
@@ -234,17 +247,91 @@ namespace Klienci
         }
         private void timer2_Tick(object sender, EventArgs e)
         {
-            TimeSpan span = DateTime.Now - start;
+            TimeSpan span = DateTime.Now - start2;
             label7.Text = span.ToString(@"mm\:ss\.ff");
-            ButtonStart2.Text = span.ToString(@"mm\:ss\.ff");
+            //ButtonStart2.Text = span.ToString(@"mm\:ss\.ff");
+            ButtonStart2.Text = span.ToString(@"hh\:mm\:ss");
         }
 
         private void ButtonStart1_MouseDown(object sender, MouseEventArgs e)
         {
-            ButtonStart1.Text = "a";
+            //ButtonStart1.Text = "a";
         }
 
         private void ButtonStart1_MouseUp(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void ButtonStart3_Click(object sender, EventArgs e)
+        {
+            if (z == 0)
+            {
+                start3 = DateTime.Now;
+                //button5.Text = "Stop";
+                //label8.Text = start2.ToString();
+                z = 1;
+                timer3.Start();
+
+            }
+            else
+            {
+                end3 = DateTime.Now;
+                //button5.Text = "Start";
+                //label10.Text = end3.ToString();
+                z = 0;
+                timer3.Stop();
+                //label5.Text = timer1.T
+            }
+        }
+
+        private void ButtonStart4_Click(object sender, EventArgs e)
+        {
+            if (a == 0)
+            {
+                start4 = DateTime.Now;
+                //button5.Text = "Stop";
+                //label8.Text = start2.ToString();
+                a = 1;
+                timer4.Start();
+
+            }
+            else
+            {
+                end4 = DateTime.Now;
+                //button5.Text = "Start";
+                //label10.Text = end3.ToString();
+                a = 0;
+                timer4.Stop();
+                //label5.Text = timer1.T
+            }
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void SaveButton()
         {
 
         }

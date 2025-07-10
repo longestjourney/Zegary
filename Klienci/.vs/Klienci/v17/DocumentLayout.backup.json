@@ -22,36 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs",
               "RelativeDocumentMoniker": "Klienci\\Form1.cs",
-              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs*",
-              "RelativeToolTip": "Klienci\\Form1.cs*",
-              "ViewState": "AgIAALMAAAAAAAAAAAASwNAAAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs",
+              "RelativeToolTip": "Klienci\\Form1.cs",
+              "ViewState": "AgIAADIBAAAAAAAAAAASwE8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T11:23:56.1Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs",
-              "RelativeDocumentMoniker": "Klienci\\Form1.cs",
-              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs [Design]*",
-              "RelativeToolTip": "Klienci\\Form1.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T06:48:42.704Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -64,6 +48,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-29T06:48:40.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs",
+              "RelativeDocumentMoniker": "Klienci\\Form1.cs",
+              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs [Design]",
+              "RelativeToolTip": "Klienci\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:48:42.704Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }
