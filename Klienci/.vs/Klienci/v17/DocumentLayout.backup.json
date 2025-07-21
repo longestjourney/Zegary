@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|solutionrelative:klienci\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|c:\\users\\natalia\\documents\\github\\zegary\\klienci\\klienci\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\klienci\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|solutionrelative:klienci\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -22,17 +22,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs",
               "RelativeDocumentMoniker": "Klienci\\Form1.cs",
-              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs",
-              "RelativeToolTip": "Klienci\\Form1.cs",
-              "ViewState": "AgIAADIBAAAAAAAAAAASwE8BAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs*",
+              "RelativeToolTip": "Klienci\\Form1.cs*",
+              "ViewState": "AgIAACsBAAAAAAAAAAAwwDkBAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T11:23:56.1Z",
               "EditorCaption": ""
@@ -58,12 +66,7 @@
               "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs [Design]",
               "RelativeToolTip": "Klienci\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T06:48:42.704Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2025-05-29T06:48:42.704Z"
             }
           ]
         }
