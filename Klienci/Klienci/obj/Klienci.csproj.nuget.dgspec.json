@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Klienci.csproj": {}
+    "C:\\Users\\Natalia\\Downloads\\Zegary-Stupid-test\\Zegary-Stupid-test\\Klienci\\Klienci\\Klienci.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Klienci.csproj": {
+    "C:\\Users\\Natalia\\Downloads\\Zegary-Stupid-test\\Zegary-Stupid-test\\Klienci\\Klienci\\Klienci.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Klienci.csproj",
+        "projectUniqueName": "C:\\Users\\Natalia\\Downloads\\Zegary-Stupid-test\\Zegary-Stupid-test\\Klienci\\Klienci\\Klienci.csproj",
         "projectName": "Klienci",
-        "projectPath": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Klienci.csproj",
+        "projectPath": "C:\\Users\\Natalia\\Downloads\\Zegary-Stupid-test\\Zegary-Stupid-test\\Klienci\\Klienci\\Klienci.csproj",
         "packagesPath": "C:\\Users\\Natalia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\obj\\",
+        "outputPath": "C:\\Users\\Natalia\\Downloads\\Zegary-Stupid-test\\Zegary-Stupid-test\\Klienci\\Klienci\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
