@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Klienci")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaad5409879657c9978a113d8ddb6818a1fee7ec")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db2db84bca05f611c9680e2ee3d2a3ae4dc00fb2")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("Klienci")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Klienci")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

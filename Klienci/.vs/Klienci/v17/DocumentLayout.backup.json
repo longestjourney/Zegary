@@ -11,6 +11,18 @@
       "RelativeMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|solutionrelative:klienci\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|c:\\users\\natalia\\documents\\github\\zegary\\klienci\\klienci\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|solutionrelative:klienci\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|c:\\users\\natalia\\documents\\github\\zegary\\klienci\\klienci\\klienci.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|solutionrelative:klienci\\klienci.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|c:\\users\\natalia\\documents\\github\\zegary\\klienci\\klienci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|solutionrelative:klienci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|c:\\users\\natalia\\documents\\github\\zegary\\klienci\\klienci\\klienci.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{614511E0-BC39-406D-A98C-2CE627D17D1D}|Klienci\\Klienci.csproj|solutionrelative:klienci\\klienci.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -22,24 +34,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 0,
+=======
+          "SelectedChildIndex": 3,
+>>>>>>> Stashed changes
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Klienci",
+              "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Klienci.csproj",
+              "RelativeDocumentMoniker": "Klienci\\Klienci.csproj",
+              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Klienci.csproj",
+              "RelativeToolTip": "Klienci\\Klienci.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T10:40:23.283Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs",
               "RelativeDocumentMoniker": "Klienci\\Form1.cs",
+<<<<<<< Updated upstream
               "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs",
               "RelativeToolTip": "Klienci\\Form1.cs",
               "ViewState": "AgIAADIBAAAAAAAAAAASwE8BAAAAAAAAAAAAAA==",
+=======
+              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs*",
+              "RelativeToolTip": "Klienci\\Form1.cs*",
+              "ViewState": "AgIAAIoBAAAAAAAAAAAawKYBAAA0AAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T11:23:56.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Program.cs",
+              "RelativeDocumentMoniker": "Klienci\\Program.cs",
+              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Program.cs",
+              "RelativeToolTip": "Klienci\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:39:06.316Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Klienci\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.Designer.cs",
+              "RelativeToolTip": "Klienci\\Form1.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:37:10.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Klienci.csproj",
               "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Klienci.csproj",
               "RelativeDocumentMoniker": "Klienci\\Klienci.csproj",
@@ -55,15 +113,18 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs",
               "RelativeDocumentMoniker": "Klienci\\Form1.cs",
-              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs [Design]",
-              "RelativeToolTip": "Klienci\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Natalia\\Documents\\GitHub\\Zegary\\Klienci\\Klienci\\Form1.cs [Design]*",
+              "RelativeToolTip": "Klienci\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T06:48:42.704Z",
               "EditorCaption": " [Design]"
+<<<<<<< Updated upstream
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+=======
+>>>>>>> Stashed changes
             }
           ]
         }
